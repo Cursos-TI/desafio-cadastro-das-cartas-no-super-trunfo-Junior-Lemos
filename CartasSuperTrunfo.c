@@ -26,7 +26,7 @@ int main() {
     float pib;
     int turistico;
 
-    printf("Dados Carta 1: \n");
+    printf("***Dados Carta 1*** \n");
 
     printf("Estado: \n");
     scanf("%c", &estado);
@@ -50,36 +50,36 @@ int main() {
     scanf("%d", &turistico);
 
 
-    char _estado;
-    char _codigo[15];
-    char _cidade[17];
-    int _populacao;
-    float _area;
-    float _pib;
-    int _turistico;
+    char estado2;
+    char codigo2[15];
+    char cidade2[17];
+    int populacao2;
+    float area2;
+    float pib2;
+    int turistico2;
 
-    printf("Dados Carta 2: \n");
+    printf("***Dados Carta 2*** \n");
 
     printf("Estado: \n");
-    scanf(" %c", &_estado);
+    scanf(" %c", &estado2);
 
     printf("Codigo: \n");
-    scanf("%s", &_codigo);
+    scanf("%s", &codigo2);
 
     printf("Nome da Cidade: \n");
-    scanf("%s", &_cidade);
+    scanf("%s", &cidade2);
 
     printf("Populacao: \n");
-    scanf("%d", &_populacao);
+    scanf("%d", &populacao2);
 
     printf("Area: \n");
-    scanf("%f", &_area);
+    scanf("%f", &area2);
 
     printf("PIB: \n");
-    scanf("%f", &_pib);
+    scanf("%f", &pib2);
 
     printf("Numero de Pontos Turisticos: \n");
-    scanf("%d", &_turistico);
+    scanf("%d", &turistico2);
 
     printf("Carta 1: \n");
     printf("Estado: %c\n", estado);
@@ -91,13 +91,13 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", turistico);
     
     printf("Carta 2: \n");
-    printf("Estado: %c\n", _estado);
-    printf("Codigo da Carta: %s\n", _codigo);
-    printf("Nome da Cidade: %s\n", _cidade);
-    printf("Populacao: %d\n", _populacao);
-    printf("Area: %.2f km²\n", _area);
-    printf("PIB: %.2f bilhoes de reais\n", _pib);
-    printf("Numero de Pontos Turisticos: %d\n", _turistico);
+    printf("Estado: %c\n", estado2);
+    printf("Codigo da Carta: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", cidade2);
+    printf("Populacao: %d\n", populacao2);
+    printf("Area: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhoes de reais\n", pib2);
+    printf("Numero de Pontos Turisticos: %d\n", turistico2);
 
 
 
