@@ -61,7 +61,7 @@ int main() {
     printf("***Dados Carta 2*** \n");
 
     printf("Estado: \n");
-    scanf(" %c", &estado2);
+    scanf("%c", &estado2);
 
     printf("Codigo: \n");
     scanf("%s", &codigo2);
