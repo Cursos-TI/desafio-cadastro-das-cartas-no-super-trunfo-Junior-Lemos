@@ -18,9 +18,12 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
 
-    char estado, estado2;
-    char codigo, codigo2[15];
-    char cidade, cidade2[17];
+    char estado;
+    char estado2;
+    char codigo[15];
+    char codigo2[15];
+    char cidade[17];
+    char cidade2[17];
     int populacao, populacao2;
     float area, area2;
     float pib, pib2;
