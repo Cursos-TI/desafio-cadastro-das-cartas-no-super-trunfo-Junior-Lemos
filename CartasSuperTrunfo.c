@@ -24,18 +24,26 @@ int main() {
     char codigo2[15];
     char cidade[17];
     char cidade2[17];
-    int populacao, populacao2;
-    float area, area2;
-    float pib, pib2;
-    int turistico, turistico2;
+    int populacao = 12, populacao2 = 21;
+    float area = 11.1, area2 = 22.2;
+    float pib = 12.1, pib2 = 21.2;
+    int turistico = 5, turistico2 = 6;
     float densidade, densidade2;
     float capita, capita2;
     
+    estado = a;
+    estado2 = b;
+    codigo = a01;
+    codigo2 = b01;
+    cidade = amsterdam;
+    cidade2 = brasilia;
+    
+
 
     printf("***Dados Carta 1*** \n");
 
     printf("Estado: \n");
-    scanf("%c", &estado);
+    scanf(" %c", &estado);
 
     printf("Codigo: \n");
     scanf("%s", &codigo);
@@ -64,7 +72,7 @@ int main() {
     printf("***Dados Carta 2*** \n");
 
     printf("Estado: \n");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
 
     printf("Codigo: \n");
     scanf("%s", &codigo2);
